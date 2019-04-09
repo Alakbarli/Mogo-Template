@@ -1,0 +1,29 @@
+#feature{
+	background-image:url("../img/feature-bg.jpg");
+	background:cover;
+	.feature-overlay{
+		background:rgba(255,255,255,0.7);
+		.feature-content{
+			transform: translateX(-40px);
+
+			.feature-tablet{
+				position: relative;
+				img{
+
+					object-fit: cover;
+				}
+				.feature-mobil{
+					position: absolute;
+					bottom:-65px;
+					right:-110px;
+					img{
+						height: 350px;
+						object-fit: cover;
+					}
+
+				}
+			}
+		}
+
+	}
+}
